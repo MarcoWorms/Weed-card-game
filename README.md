@@ -23,16 +23,16 @@ The round ends when a player has five plant cards in his garden (or all players 
 
 Plant cards hold one, two, three, four, or six pot plants on them (Weed1, Weed2, Weed3, Weed4 and Weed6). Play a plant card by setting it in your garden. If someone has planted a dandelion in your garden, you must first kill the dandelion with the weed killer before adding another plant card. End the round after any player fills his garden with five plant cards.
 
-The Dandelion card can be placed in any garden of your choice. A dandelion in someone's garden blocks her from having five plant cards and closing out the round.
+Dandelion: The Dandelion card can be placed in any garden of your choice. A dandelion in someone's garden blocks her from having five plant cards and closing out the round.
 
-Use Weed Killer to remove a dandelion from your garden. After playing this card, discard it and a Dandelion card from your garden. Weed Killer cards can also be used to remove a dandelion from another player's garden.
+WeedKiller: Use Weed Killer to remove a dandelion from your garden. After playing this card, discard it and a Dandelion card from your garden. Weed Killer cards can also be used to remove a dandelion from another player's garden.
 
 Note: Trading cards is not allowed, but a player can use her turn to kill someone else's dandelion.
 
-Place a Hippie card in the garden of your choice on the top of the lowest plant value. If the player has two equally low cards, select only one of the cards for the Hippie. The Hippie smokes the plants on this card, then is discarded along with the Plant card.
+Hippie: Place a Hippie card in the garden of your choice on the top of the lowest plant value. If the player has two equally low cards, select only one of the cards for the Hippie. The Hippie smokes the plants on this card, then is discarded along with the Plant card.
 
-Play the Steal card by placing it next to the garden you wish to steal from. Next, select the plant card of your choice, place it in your garden, and discard the Steal card. You can't steal if you have five cards in your garden.
+Steal: Play the Steal card by placing it next to the garden you wish to steal from. Steal the best weed from it.
 
-Bust one of the other players by placing this card next to his garden. Confiscate his highest plant card and discard it. Leave the busted card next to his garden so he can discard it instead of taking his next turn.
+Butsted: Bust one of the other players by placing this card next to his garden. Confiscate his highest plant card and discard it. Leave the busted card next to his garden so he can discard it instead of taking his next turn.
 
 POTZILLA wipes out everything in its path. Play this card on someone's garden and take all of her plant cards and weeds, then discard them with POTZILLA.
