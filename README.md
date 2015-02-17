@@ -11,8 +11,6 @@ Weed! is an easy-to-learn strategy card game where you and the other players com
 
 As you build your garden, you also try to prevent other players from establishing healthy crops. You can plant Dandelions in someone else's garden, Steal plants and even Bust another player for possession. Five plant cards in your garden closes the round, but watch out for Potzilla who can destroy it all.
 
---------
-
 ##RULES - How to Play
 
 Objective:To grow the most plants in your garden.
@@ -23,9 +21,7 @@ The player to the left of the dealer takes thef irst turn, then play continues c
 
 The round ends when a player has five plant cards in his garden (or all players run out of cards.) Add the number of pot plants in each garden to each player's score. Keep Playing rounds until at least one player reaches 50 points. The player with the highest score wins. If there is a tie, play another round. 
 
-##RULES - Card Values
-
-Plant cards hold one, two, three, four, or six pot plants on them. Play a plant card by setting it in your garden. If someone has planted a dandelion in your garden, you must first kill the dandelion with the weed killer before adding another plant card. End the round after any player fills his garden with five plant cards.
+Plant cards hold one, two, three, four, or six pot plants on them (Weed1, Weed2, Weed3, Weed4 and Weed6). Play a plant card by setting it in your garden. If someone has planted a dandelion in your garden, you must first kill the dandelion with the weed killer before adding another plant card. End the round after any player fills his garden with five plant cards.
 
 The Dandelion card can be placed in any garden of your choice. A dandelion in someone's garden blocks her from having five plant cards and closing out the round.
 
