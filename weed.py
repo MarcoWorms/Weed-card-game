@@ -336,6 +336,12 @@ while winner == None:
                         while any("Weed6" in s for s in gardens[target]):
                             gardens[target].remove("Weed6")
 
+                        while any("Dandelion" in s for s in gardens[target]):
+                            gardens[target].remove("Dandelion")
+
+                        while any("Busted" in s for s in gardens[target]):
+                            gardens[target].remove("Busted")
+
                 action = chooseAction()
 
             # Checks if player won after ending his turn
