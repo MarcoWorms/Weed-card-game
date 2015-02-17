@@ -3,7 +3,7 @@ Python version of the Weed! Card game
 
 Made in Python 2.7.6
 
-Requires EasyGUI - http://easygui.sourceforge.net/
+Requires EasyGUI (Sorry for the bad GUI, I will work on that) - http://easygui.sourceforge.net/
 
 Originated from: http://www.khepergames.com/catalogue.php?pn=2&fitem_id=cat-16#
 
