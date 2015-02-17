@@ -1,7 +1,8 @@
-# Weed-card-game
+# Weed! card game - Python version
 Python version of the Weed! Card game
 
 Made in Python 2.7.6
+
 Requires EasyGUI - http://easygui.sourceforge.net/
 
 http://www.khepergames.com/catalogue.php?pn=2&fitem_id=cat-16#
