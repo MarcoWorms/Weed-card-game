@@ -1,4 +1,5 @@
 # Imports stuff
+from __future__ import division
 from random import shuffle
 import math
 import os
@@ -33,11 +34,7 @@ def createDeck(totalplayers):
                "Potzilla": 1}
 
     # Generates 1 extra deck every 4 totalplayers.
-    # Math.floor and -0.1 fixes a bug. "if ndecks % 4 = 0" would generates an extra deck.
-    if totalplayers < 4:
-        ndecks = 1
-    else:
-        ndecks = math.floor(totalplayers/4 - 0.1) + 1
+    ndecks = math.ceil(totalplayers/4)
 
     # This loops the same ammount of times as the numbers of decks above (ndecks).
     for i in range(0,int(ndecks)):
