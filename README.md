@@ -7,6 +7,8 @@ Requires EasyGUI (Sorry for the bad GUI, I will work on that) - http://easygui.s
 
 Originated from: http://www.khepergames.com/catalogue.php?pn=2&fitem_id=cat-16#
 
+Bots will come :D I just couldn't take the time to program them when I started this.
+
 Weed! is an easy-to-learn strategy card game where you and the other players compete to grow the most pot plants.
 
 As you build your garden, you also try to prevent other players from establishing healthy crops. You can plant Dandelions in someone else's garden, Steal plants and even Bust another player for possession. Five plant cards in your garden closes the round, but watch out for Potzilla who can destroy it all.
