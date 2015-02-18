@@ -34,10 +34,10 @@ def createDeck(totalplayers):
                "Potzilla": 1}
 
     # Generates 1 extra deck every 4 totalplayers.
-    ndecks = math.ceil(totalplayers/4)
+    ndecks = math.ceil(totalplayers // 4)
 
     # This loops the same ammount of times as the numbers of decks above (ndecks).
-    for i in range(0,int(ndecks)):
+    for i in range(0, ndecks):
 
         # Iterates each card type in deckset dictionary
         for cardname in deckset.keys():
