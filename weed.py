@@ -40,14 +40,9 @@ def createDeck(totalplayers):
     for i in range(0,int(ndecks)):
 
         # Iterates each card type in deckset dictionary
-        for cardname in deckset.keys():
-
-            # Get number of cards to be generated
-            ammount = deckset[cardname]
-
-            # And add them to the deck array
-            for k in range(0,deckset[cardname]):
-                deck.append(cardname)
+        for cardname, amount in deckset.iteritems():
+            # And add an amount of them to the deck array
+            deck.extend(amount * [cardname])
 
     # Shuffles the deck array
     shuffle(deck)
