@@ -15,30 +15,29 @@ bots = 0
 # Decks Generator, return as array, totalplayers = number of players + number of bots
 def createDeck(totalplayers):
 
-    # Creates the dictionary "deckset"
-    deckset = {}
-
     # Creates the array "deck"
     deck = []
 
-    # Defines cards types and how many you have in one deck with the dictionary "deckset".
-    deckset["Weed1"] = 10
-    deckset["Weed2"] = 10
-    deckset["Weed3"] = 6
-    deckset["Weed4"] = 3
-    deckset["Steal"] = 5
-    deckset["WeedKiller"] = 5
-    deckset["Dandelion"] = 5
-    deckset["Hippie"] = 3
-    deckset["Busted"] = 2
-    deckset["Potzilla"] = 1
+    # Creates the dictionary "deckset"
+    # Defines cards types and how many you have in one deck with the
+    # dictionary "deckset".
+    deckset = {"Weed1": 10,
+               "Weed2": 10,
+               "Weed3": 6,
+               "Weed4": 3,
+               "Steal": 5,
+               "WeedKiller": 5,
+               "Dandelion": 5,
+               "Hippie": 3,
+               "Busted": 2,
+               "Potzilla": 1}
 
     # Generates 1 extra deck every 4 totalplayers.
     # Math.floor and -0.1 fixes a bug. "if ndecks % 4 = 0" would generates an extra deck.
     if totalplayers < 4:
         ndecks = 1
     else:
-        ndecks = math.floor(totalplayers/4 - 0.1) + 1 
+        ndecks = math.floor(totalplayers/4 - 0.1) + 1
 
     # This loops the same ammount of times as the numbers of decks above (ndecks).
     for i in range(0,int(ndecks)):
@@ -94,7 +93,7 @@ def chooseAction():
         msg += who + " Garden: "
         msg += ' - '.join(garden)
         msg += "\n"
-    
+
     # Display current player's hand
     msg += "\n" + player + " hand:      " + ' - '.join(hands[player]) + "\n"
 
@@ -161,7 +160,7 @@ while winner == None:
     for player in playorder:
         hands[player] = []
         gardens[player] = []
-        
+
 
     #Gives 5 cards for each player
     for player in playorder:
@@ -314,7 +313,7 @@ while winner == None:
                                 gardens[target].remove("Weed2")
 
                             elif any("Weed1" in s for s in gardens[target]):
-                                gardens[target].remove("Weed1") 
+                                gardens[target].remove("Weed1")
 
                 elif action == "Potzilla":
                     if any("Potzilla" in s for s in hands[player]):
