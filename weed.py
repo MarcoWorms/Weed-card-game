@@ -36,13 +36,13 @@ def createDeck(totalplayers):
     # Generates 1 extra deck every 4 totalplayers.
     ndecks = math.ceil(totalplayers // 4)
 
-    # This loops the same ammount of times as the numbers of decks above (ndecks).
-    for i in range(0, ndecks):
-
-        # Iterates each card type in deckset dictionary
-        for cardname, amount in deckset.iteritems():
-            # And add an amount of them to the deck array
-            deck.extend(amount * [cardname])
+    # Iterates each card type in deckset dictionary
+    for cardname, amount in deckset.iteritems():
+        # And add an amount of them to the deck array
+        deck.extend(amount * [cardname])
+    
+    # Multiplies the deck array for each deck we are gonna use
+    deck = ndecks * deck
 
     # Shuffles the deck array
     shuffle(deck)
