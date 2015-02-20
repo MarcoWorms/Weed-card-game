@@ -8,6 +8,8 @@ Originated from: http://www.khepergames.com/catalogue.php?pn=2&fitem_id=cat-16#
 
 Bots will come :D I just couldn't take the time to program them when I started this.
 
+License: MIT
+
 ---------
 
 Weed! is an easy-to-learn strategy card game where you and the other players compete to grow the most pot plants.
