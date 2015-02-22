@@ -154,7 +154,7 @@ while winner == None:
         gardens[player] = []
 
 
-    #Gives 5 cards for each player
+    #Gives 5 cards to each player
     for player in playorder:
         print player
         for i in range(0,5):
