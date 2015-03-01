@@ -43,7 +43,7 @@ def createDeck(totalplayers):
         deck.extend(amount * [cardname])
     
     # Multiplies the deck array for each deck we are gonna use
-    deck = ndecks * deck
+    deck = int(ndecks) * deck
 
     # Shuffles the deck array
     shuffle(deck)
