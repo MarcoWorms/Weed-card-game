@@ -1,10 +1,11 @@
 # Imports stuff
-from __future__ import division
-from random import shuffle
-import math
-import os
-from easygui import *
-import sys
+from __future__ import  division
+from  random    import  shuffle
+from  easygui   import  *
+
+import  math
+import  sys
+import  os
 
 #------------------Game settings------------------
 # Humans ammount
