@@ -1,4 +1,4 @@
-# Discontinued (but to be continued, I will make this code good one day.)
+# Discontinued (but to be continued, I will make this code good one day. It works perfectly though.)
 
 # Weed! card game - Python version
 
