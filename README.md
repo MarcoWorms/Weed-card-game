@@ -1,3 +1,5 @@
+# Discontinued (but to be continued, I will make this code good one day.)
+
 # Weed! card game - Python version
 
 Made in Python 2.7.6
